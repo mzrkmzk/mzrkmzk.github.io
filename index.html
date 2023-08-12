@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+    <meta charset="UTF-8">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="mystyle.css" />
+    <title>index.html</title>
+</head>
+<body>
+<div class="wrapper">
+	<h1>内職アプリ草案</h1>
+	<div class="content content--layout">
+		<div class="content-header">
+			<h2>project：寒川神社　水引</h2>
+	  	</div>
+		<div class="content-body">
+			<div class="project">
+				<div class="project-header">
+					<div class="project-header_item"><span class="js-project-today"></span></div>
+					<div class="project-header_item">総目標数：<span class="js-project-total"></span>枚</div>
+				</div>
+				<div class="project-body">
+					<ul class="data">
+						<li class="data-item">
+							<table class="data_table">
+								<tr>
+									<th>開始日</th>
+									<td><span class="js-project-start"></span></td>
+								</tr>
+								<tr>
+									<th>締切日</th>
+									<td><span class="js-project-goal"></span></td>
+								</tr>
+								<tr>
+									<th>残り日数</th>
+									<td><span class="js-project-left_day"></span>日</td>
+								</tr>
+							</table>
+						</li>
+						<li class="data-item">
+							<table class="data_table">
+								<tr>
+									<th>今日までの達成数</th>
+									<td><span class="js-project-done_page"></span>枚</td>
+								</tr>
+								<tr>
+									<th>残り枚数</th>
+									<td><span class="js-project-left_page"></span>枚</td>
+								</tr>
+								<tr>
+									<th>明日以降の目標数</th>
+									<td><span class="js-project-target"></span>枚/日</td>
+								</tr>
+							</table>
+						</li>
+					</ul>
+				</div>
+			</div>
+	  	</div>
+		<div class="content-button">
+			<div style="padding: 1em;"><label>今日折った枚数：<input type="number" class="js-project-done_today" data-keyname="today"></input>枚</label></div>
+			<button class="btn_enter js-project-update">今日折った枚数を入力する</button>
+		</div>
+	</div>
+	<div class="content content--layout">
+		<div class="content-header">
+			<h2>枚数計算</h2>
+		</div>
+		<ul class="content-body">
+	    	<li><label>作業開始日：<input type="date" class="js-save-item js-calc-from" value="2023-07-01" data-keyname="from"></label></li>
+	    	<li><label>作業締切日：<input type="date" class="js-save-item js-calc-to" value="2023-10-01" data-keyname="to"></label></li>
+	    	<li><label>総目標数：<input type="number" class="js-save-item js-calc-total" placeholder="1000" data-keyname="total"></input>枚</label></li>
+	  	</ul>
+		<div class="content-button">
+			<button class="js-calc-btn">計算</button>
+		</div>
+		<div class="content-result">
+	    	<div class="result">1日あたりの目標数<span class="result-item js-calc-result"></span>枚</div>
+		</div>
+		<div class="content-button">
+			<button class="btn_enter btn_enter--save js-calc-save_btn">このプロジェクトを保存する</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

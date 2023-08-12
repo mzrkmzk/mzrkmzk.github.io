@@ -1,0 +1,164 @@
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/mystyle.scss ***!
+  \*******************************************************************************************************************************************************************/
+@charset "UTF-8";
+/************************************************************
+ * reset
+ ************************************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-feature-settings: "palt"; /* プロポーショナルメトリクスを有効に */
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+}
+
+body {
+  background-color: #7EC2C2;
+}
+
+.wrapper {
+  width: 500px;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: #FFF4E1;
+  color: #7c6e6e;
+}
+
+.content .content-header h2 {
+  border-bottom: 4px solid #7EC2C2;
+}
+.content .content-body {
+  margin-top: 1em;
+}
+.content .content-body_item {
+  width: 400px;
+  margin-top: 0.5em;
+  padding: 20px;
+  background-color: #7EC2C2;
+  font-size: 1em;
+  color: #fff;
+}
+.content .content-body_text {
+  font-size: 20px;
+  color: red;
+}
+.content .content-button {
+  margin-top: 1em;
+}
+.content .content-result {
+  margin-top: 1em;
+}
+.content.content--layout {
+  margin-top: 2em;
+}
+
+.project {
+  width: 100%;
+}
+.project .project-header {
+  display: flex;
+  background-color: #9DDCDC;
+  color: #fff;
+}
+.project .project-header_item {
+  padding: 20px;
+  border-left: 1px solid #7EC2C2;
+}
+.project .project-header_item:first-child {
+  border-left: none;
+}
+.project .project-body {
+  margin-top: 1em;
+}
+
+.data {
+  display: flex;
+}
+.data .data-item {
+  margin-left: 1em;
+}
+.data .data-item:first-child {
+  margin-left: 0;
+}
+
+.data_table {
+  border-collapse: collapse;
+  border: solid 2px #7EC2C2;
+}
+.data_table tr {
+  border-bottom: solid 1px #7EC2C2;
+}
+.data_table tr:last-child {
+  border: none;
+}
+.data_table th {
+  padding: 0.5em;
+  background-color: #9DDCDC;
+  color: #fff;
+}
+.data_table td {
+  padding: 0.5em;
+  background-color: #fff;
+  border-left: solid 1px #7EC2C2;
+}
+
+.btn_enter {
+  padding: 1rem 4rem;
+  font-weight: bold;
+  border-radius: 100vh;
+  border-bottom: 4px solid #ad5a5a;
+  background: #E67A7A;
+  color: #fff;
+}
+.btn_enter:hover {
+  background-color: #c36666;
+}
+.btn_enter.btn_enter--save {
+  background-color: #7EC2C2;
+  border-bottom: 4px solid #609494;
+}
+
+.result {
+  width: 400px;
+  padding: 20px;
+  background: #9DDCDC;
+  color: #fff;
+}
+
+.result-item {
+  margin-left: 20px;
+  font-size: 20px;
+  color: red;
+}
